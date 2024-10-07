@@ -1,0 +1,17 @@
+<view>
+    <van-swipe-cell right-width="{{ 100 }}">
+          <view class="goods_img">
+                <image mode="widthFix" src="../../images/13.jpg"></image>
+            </view>
+            
+            <view class="goods_info">
+                <text class="goods_name">督泰堂中医诊所 钱塘区-盛泰名都公寓2幢
+                  联系电话 133151591923
+                  基础服务：中医把脉，中医调理</text>
+                </view>
+
+
+        </van-swipe-cell>
+
+    <van-submit-bar price="{{ goodsData.price * 100 }}" button-text="提交预定" bind:submit="onSubmit" />
+</view>

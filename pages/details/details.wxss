@@ -1,0 +1,52 @@
+.details{
+    background: #fff;
+}
+
+.details .topimage{
+    width: 100%;
+
+}
+
+.details .content{
+    margin: 10px;
+}
+
+.details .content .price {
+    color: #131414;
+}
+
+.details .content .price text{
+    color: #131414;
+    display: inline-block;
+    font-family: JDZH-Regular;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.details .content .title{
+    font-size: 15px;
+    font-weight: 700;
+}
+.details .content .title1{
+  font-size: 20px;
+  font-weight: 700;
+  color: #33cc66;
+}
+.details .content .title2{
+  font-size: 15px;
+  font-weight: 700;
+  color: #20b2d6;
+}
+
+.details .introduce image{
+   font-size: 20px;
+}
+.details.content.header{
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#f1503b), color-stop(50%, #c82519));
+  background-image: -webkit-linear-gradient(bottom, #41f13b, #19c836 50%);
+  background-image: linear-gradient(0deg, #7bb158, #3fb666 50%);
+  width: 100%;
+  height: 190px;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+}

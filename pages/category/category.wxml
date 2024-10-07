@@ -1,0 +1,43 @@
+<view>
+  <view class="left-nav">
+        <van-sidebar active-key="{{ activeKey }}">
+            <block wx:for="{{ sliderData }}" wx:key="index">
+                <van-sidebar-item data-title="{{ item.text }}" bindtap="clickItemNav" title="{{ item.text }}" />
+            </block>
+        </van-sidebar>
+    </view>
+    <view class="left-nav">
+        <van-sidebar active-key="{{ activeKey }}">
+            <block wx:for="{{ sliderData1 }}" wx:key="index">
+                <van-sidebar-item data-title="{{ item.text }}" bindtap="clickItemNav" title="{{ item.text }}" />
+            </block>
+        </van-sidebar>
+    </view>
+
+
+    <view class="right-nav">
+        <van-grid column-num="1">
+
+                <view bindtap="clickItem" data-tag="{{ item.tag }}">
+                    <image  src="../../images/11.jpg"></image>
+                    <text>督泰堂中医诊所 
+                     钱塘区-盛泰名都公寓2幢
+                    电话：0517-86712981</text>
+                    <image  src="../../images/27.jpg"></image>
+                    <text>杭州市御和堂中医
+                      钱塘区-盛泰名都公寓2幢
+                    电话：17767113556
+                    </text>
+                    <image  src="../../images/26.jpg"></image>
+                    <text>督泰堂中医诊所 
+                     钱塘区-盛泰名都公寓2幢
+                    电话：17767113556</text>
+                    <image  src="../../images/10.jpg"></image>
+                    <text>督泰堂中医诊所 
+                     钱塘区-盛泰名都公寓2幢
+                    电话：17767113556</text>
+                </view>
+        </van-grid>  
+    </view>
+
+</view>

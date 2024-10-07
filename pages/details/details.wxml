@@ -1,0 +1,48 @@
+<view class="details">
+    <image class="topimage" mode="widthFix" src="../../images/8.jpg"></image>
+    <view class="content">
+      <view class="header">
+        <view class="title1">
+            <text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——杭州医疗保障点——
+
+            </text>
+        </view>
+        <view class="title">
+            <text>御和堂中医馆 杭州市上城区彭阜街道东望府
+                     </text>
+        </view>
+        <view class="price">
+            <text>预约电话：</text>18668483816
+        </view>
+        <view class="title1">
+            <text>医疗报销力度：40%
+
+                     </text>
+        </view>
+
+
+      </view>
+    
+        
+        <view class="title2">
+            <text>基础服务：诊疗服务 中医把脉 中医推理
+             </text>
+        </view>
+        <view class="title">
+            <text>请选择预约医生
+            上午：8:00-11:00 吴医生
+            医生主治：慢性病 健康调理</text>
+        </view>
+    </view>
+    <view class="introduce">
+        <image mode="widthFix" src="../../images/10.jpg"></image>
+    </view>
+    <view class="cart">
+        <van-goods-action>
+          <van-goods-action-button data-id="{{ goodsDetails.id }}" color="#3fb666" text="立即预定" bind:click="onClickBuy" />
+            <van-goods-action-button color="#3fa996" text="路线导航"   />
+            <van-goods-action-button color="#3fb666" text="客服热线"   />
+
+        </van-goods-action>
+    </view>
+</view>

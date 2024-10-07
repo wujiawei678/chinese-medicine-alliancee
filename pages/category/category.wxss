@@ -1,0 +1,21 @@
+.left-nav{
+    float: left;
+    width: 17%;
+}
+.right-nav{
+    float: right;
+    width: 65%;
+}
+
+.right-nav image{
+    width: 400px;
+    float:initial;
+}
+    
+.right-nav text{
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(204, 19, 19);
+    text-align: center;
+    display: block;
+}

@@ -1,0 +1,117 @@
+<view class="list">
+        <navigator url="/pages/details/details?id={{ item.id }}">
+            <view class="goods_img">
+                <image mode="widthFix" src="https://img95.699pic.com/photo/50191/8031.jpg_wh860.jpg"></image>
+            </view>
+            
+            <view class="goods_info">
+                <text class="goods_name">督泰堂中医诊所 钱塘区-盛泰名都公寓2幢
+                  联系电话 133151591923
+                  基础服务：中医把脉，中医调理</text>
+
+                <view class="goods_price">                 
+                </view>
+            </view>
+            <view class="goods_img">
+                <image mode="widthFix" src="../../images/13.jpg"></image>
+            </view>
+            
+            <view class="goods_info">
+                <text class="goods_name">杭州御和堂中医 上城区东望府2幢
+                联系电话 13315154991
+                基础服务：中医把脉，中医调理</text>
+                
+                <view class="goods_price">                 
+                </view>
+            </view>
+            <view class="goods_img">
+                <image mode="widthFix" src="../../images/10.jpg"></image>
+            </view>
+            
+            <view class="goods_info">
+                <text class="goods_name">督泰堂中医诊所 钱塘区-盛泰名都公寓2幢
+                  联系电话 13315154991 
+                  基础服务：诊疗服务，中医把脉，中医调理</text>
+
+                <view class="goods_price">                 
+                </view>
+            </view>
+            <view class="goods_img">
+                <image mode="widthFix" src="../../images/27.jpg"></image>
+            </view>
+            
+            <view class="goods_info">
+                <text class="goods_name">杭州御和堂中医 上城区东望府2幢
+                  联系电话 13315154991 
+                  基础服务：诊疗服务，中医把脉，中医调理</text>
+
+                <view class="goods_price">                 
+                </view>
+            </view>
+            <view class="goods_img">
+                <image mode="widthFix" src="../../images/25.jpg"></image>
+            </view>
+            
+            <view class="goods_info">
+                <text class="goods_name">督泰堂中医诊所 钱塘区-盛泰名都公寓2幢
+                  联系电话 13315154991 
+                  基础服务：诊疗服务，中医把脉，中医调理</text>
+
+                <view class="goods_price">                 
+                </view>
+            </view>
+            <view class="goods_img">
+                <image mode="widthFix" src="../../images/24.jpg"></image>
+            </view>
+            
+            <view class="goods_info">
+                <text class="goods_name">杭州御和堂中医 上城区东望府2幢
+                  联系电话 13315154991 
+                  基础服务：诊疗服务，中医把脉，中医调理</text>
+
+                <view class="goods_price">                 
+                </view>
+            </view>
+            <view class="goods_img">
+                <image mode="widthFix" src="../../images/23.jpg"></image>
+            </view>
+            
+            <view class="goods_info">
+                <text class="goods_name">杭州御和堂中医 上城区东望府2幢
+                  联系电话 13315154991 
+                  基础服务：诊疗服务，中医把脉，中医调理</text>
+
+                <view class="goods_price">                 
+                </view>
+            </view>
+            <view class="goods_img">
+                <image mode="widthFix" src="../../images/26.jpg"></image>
+            </view>
+            
+            <view class="goods_info">
+                <text class="goods_name">杭州御和堂中医 上城区东望府2幢
+                  联系电话 13315154991 
+                  基础服务：诊疗服务，中医把脉，中医调理</text>
+
+                <view class="goods_price">                 
+                </view>
+            </view>
+            <view class="goods_img">
+                <image mode="widthFix" src="../../images/21.jpg"></image>
+            </view>
+            
+            <view class="goods_info">
+                <text class="goods_name">杭州御和堂中医 上城区东望府2幢
+                  联系电话 13315154991 
+                  基础服务：诊疗服务，中医把脉，中医调理</text>
+
+                <view class="goods_price">                 
+                </view>
+            </view>
+
+
+        </navigator>
+
+
+    
+</view>

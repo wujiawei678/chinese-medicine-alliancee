@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/search/search",
+    "pages/goods/goods",
+    "pages/details/details",
+    "pages/buy/buy"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "中医联盟",
+    "navigationBarTextStyle":"black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+      "color": "#666",
+      "selectedColor": "#fa2c19",
+      "list": [
+        {
+            "pagePath": "pages/index/index",
+            "text": "首页",
+            "iconPath": "./images/shouye.png",
+            "selectedIconPath": "./images/shouye1.png"
+        },
+        {
+            "pagePath": "pages/category/category",
+            "text": "分类",
+            "iconPath": "./images/fenlei.png",
+            "selectedIconPath": "./images/fenlei_select.png"
+        },
+        {
+            "pagePath": "pages/cart/cart",
+            "text": "预约",
+            "iconPath": "./images/yuyue11.jpg",
+            "selectedIconPath": "./images/yuyue11.jpg"
+        },
+        {
+            "pagePath": "pages/user/user",
+            "text": "用户",
+            "iconPath": "./images/yonghuguanli_huaban.png",
+            "selectedIconPath": "./images/yonghuguanli_huaban_select.png"
+        }
+      ]
+  }
+}
